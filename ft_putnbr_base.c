@@ -6,7 +6,7 @@
 /*   By: vda-conc <vda-conc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/18 16:37:21 by vda-conc          #+#    #+#             */
-/*   Updated: 2023/11/19 14:59:57 by vda-conc         ###   ########.fr       */
+/*   Updated: 2023/11/24 17:42:12 by vda-conc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,11 +93,7 @@ int	ft_putnbr_base_pointer(unsigned long nbr, char *base)
 	write(1, "0", 1);
 	write(1, "x", 1);
 	i += 2;
-	if (base_size && nbr > 0)
+	if (base_size)
 		i += ft_putnbr_base(nbr, base);
-	else if (base_size && nbr < 0)
-	{
-		i += ft_putnbr_base(n, base);
-	}
 	return (i);
 }

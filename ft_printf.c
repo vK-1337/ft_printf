@@ -6,7 +6,7 @@
 /*   By: vda-conc <vda-conc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 13:43:25 by vda-conc          #+#    #+#             */
-/*   Updated: 2023/11/20 12:50:27 by vda-conc         ###   ########.fr       */
+/*   Updated: 2023/11/24 17:40:55 by vda-conc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,13 +58,13 @@ int	ft_printf(const char *str, ...)
 	}
 	return (count);
 }
-int main()
-{
-	#include <stdio.h>
+// int main()
+// {
+// 	#include <stdio.h>
 	
-	char c1 = 'a';
-	char c2 = 'a';
+// 	char c1 = 'a';
+// 	char c2 = 'a';
 	
-	ft_printf("%c%c\n", c1 , c2);
-	printf("%c%c", c1 , c2);
-}
+// 	ft_printf("%c%c\n", c1 , c2);
+// 	printf("%c%c", c1 , c2);
+// }
